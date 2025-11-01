@@ -1,1 +1,24 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
 .terraform*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files
+*.tfvars
+*.auto.tfvars
+!terraform.tfvars.example
+
+# SSH Keys
+*.pem
+*.key
+keys/
+.ssh/
+id_rsa*
+id_ecdsa*
+id_ed25519*
